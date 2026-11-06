@@ -1,1 +1,1 @@
-simple to-do [website](https://kaveri-visavadiya.github.io/accessboard/) with persistent memory. evaluated usability using keyboard-only navigation, NVDA screen reader testing, and [WCAG](https://webaim.org/resources/contrastchecker) colour contrast checks.
+simple to-do [website](https://kaveri-visavadiya.github.io/accessboard/) with persistent memory. evaluated usability using keyboard-only navigation, [NVDA](https://www.nvaccess.org/download/) screen reader testing, and [WCAG](https://webaim.org/resources/contrastchecker) colour contrast checks.
