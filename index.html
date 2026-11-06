@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccessBoard - Accessible Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>AccessBoard</h1>
+        <p>A simple, accessible way to manage your tasks.</p>
+    </header>
+
+    <main>
+
+        <section aria-labelledby="task-heading">
+
+            <h2 id="task-heading">My Tasks</h2>
+
+            <form id="task-form">
+
+                <label for="task-input">Enter a new task</label>
+
+                <div class="input-group">
+                    <input
+                        type="text"
+                        id="task-input"
+                        placeholder="e.g. Complete assignment"
+                        required
+                    >
+
+                    <button type="submit">Add Task</button>
+                </div>
+
+            </form>
+
+            <div class="filters" aria-label="Filter tasks">
+
+                <button type="button" data-filter="all"
+                    aria-pressed="true">All</button>
+
+                <button type="button" data-filter="pending"
+                    aria-pressed="false">Pending</button>
+
+                <button type="button" data-filter="completed"
+                    aria-pressed="false">Completed</button>
+
+            </div>
+
+            <ul id="task-list" aria-label="Your tasks">
+            </ul>
+
+            <p id="task-status" role="status" aria-live="polite">
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
