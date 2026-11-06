@@ -1,3 +1,1 @@
-website at https://kaveri-visavadiya.github.io/accessboard/
-
-simple to-do website with persistent memory. evaluated usability using keyboard-only navigation, NVDA screen reader testing, and WCAG colour contrast checks.
+simple to-do [website](https://kaveri-visavadiya.github.io/accessboard/) with persistent memory. evaluated usability using keyboard-only navigation, NVDA screen reader testing, and [WCAG](https://webaim.org/resources/contrastchecker) colour contrast checks.
